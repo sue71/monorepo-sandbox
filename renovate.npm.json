@@ -1,0 +1,41 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+      {
+        "matchManagers": ["npm"],
+        "semanticCommitScope": "deps, typescript"
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "linters",
+        "extends": ["packages:linters"],
+        "matchPackagePrefixes": ["@commitlint", "eslint", "lint-staged"],
+        "matchPackageNames": ["prettier"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "test",
+        "extends": ["packages:jsTest"],
+        "matchPackageNames": ["@swc/jest"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "babel",
+        "matchPackagePrefixes": ["@babel"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "nextjs",
+        "extends": ["packages:react"],
+        "matchPackagePrefixes": ["@babel"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "matchUpdateTypes": ["minor"],
+        "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
+        "groupName": "npm minor dependencies",
+        "semanticCommitScope": "deps, typescript"
+      }
+    ]
+  }
+  

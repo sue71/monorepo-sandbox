@@ -1,0 +1,33 @@
+{
+  "name": "monorepo-sandbox",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "yarn@3.3.1",
+  "repository": "ssh://git@github.com/sue71/monorepo-sandbox",
+  "author": "sue71 <s.masaki07@gmail.com>",
+  "workspaces": [
+    "typescript/apps/*",
+    "typescript/libs/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "2.26.0",
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@types/jest": "29.2.4",
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
+    "@typescript-eslint/eslint-plugin": "5.46.1",
+    "@typescript-eslint/parser": "5.46.1",
+    "eslint": "8.20.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "27.4.5",
+    "lint-staged": "13.0.3",
+    "prettier": "2.8.3",
+    "ts-jest": "27.1.2",
+    "turbo": "1.6.0",
+    "typescript": "4.9.3"
+  }
+}

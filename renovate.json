@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":semanticCommitTypeAll(chore)", ":enableVulnerabilityAlerts", "./renovate.npm.json"],
+  "labels": ["renovate", "kind/dependencies"],
+  "enabledManagers": [
+    "npm"
+  ],
+  "hostRules": [
+    {
+      "matchHost": "registry.npmjs.org",
+      "timeout": 240000
+    }
+  ],
+  "prConcurrentLimit": 15,
+  "ignorePaths": []
+}
