@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":enableVulnerabilityAlerts"],
+  "extends": ["config:base", ":enableVulnerabilityAlerts", "lcoal>sue71/monorepo-sandbox//renovate-npm"],
   "labels": ["renovate", "kind/dependencies"],
   "enabledManagers": [
     "npm"
@@ -10,44 +10,5 @@
       "matchHost": "registry.npmjs.org",
       "timeout": 240000
     }
-  ],
-  "packageRules": [
-      {
-        "matchManagers": ["npm"],
-        "semanticCommitScope": "deps, typescript"
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "linters",
-        "extends": ["packages:linters"],
-        "matchPackagePrefixes": ["@commitlint", "eslint", "lint-staged"],
-        "matchPackageNames": ["prettier"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "test",
-        "extends": ["packages:jsTest"],
-        "matchPackageNames": ["@swc/jest"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "babel",
-        "matchPackagePrefixes": ["@babel"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "nextjs",
-        "extends": ["packages:react"],
-        "matchPackagePrefixes": ["@babel"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "matchUpdateTypes": ["minor"],
-        "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
-        "groupName": "npm minor dependencies",
-        "semanticCommitScope": "deps, typescript"
-      }
-  ],
-  "prConcurrentLimit": 15,
-  "ignorePaths": []
+  ]
 }

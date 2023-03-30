@@ -1,0 +1,68 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["packages:react"],
+  "npm": {
+    "prConcurrentLimit": 5,
+    "prHourlyLimit": 10
+  },
+  "packageRules": [
+      {
+        "matchManagers": ["npm"],
+        "semanticCommitScope": "deps, typescript"
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "linters",
+        "extends": ["packages:linters"],
+        "matchPackagePrefixes": ["@commitlint", "eslint", "lint-staged"],
+        "matchPackageNames": ["prettier"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "matchPackagePrefixes": ["@types"],
+        "automerge": true,
+        "major": {
+          "automerge": false
+        }
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "test",
+        "extends": ["packages:jsTest"],
+        "matchPackageNames": ["@swc/jest"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "babel",
+        "matchPackagePrefixes": ["@babel"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "nestjs",
+        "matchPackagePrefixes": ["@nest"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "groupName": "nextjs",
+        "matchPackagePrefixes": ["next"]
+      },
+      {
+        "matchManagers": ["npm"],
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchDepTypes": ["dependencies"],
+        "groupName": "dependencies"
+      },
+      {
+        "managers": ["npm"],
+        "additionalBranchPrefix": "{{baseDir}}-",
+        "packagePatterns": [".*"],
+        "commitMessageSuffix": "({{baseDir}})"
+      },
+      {
+        "matchManagers": ["npm"],
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchDepTypes": ["devDependencies", "peerDependencies"],
+        "groupName": "npm minor devDependencies"
+      }
+  ]
+}
