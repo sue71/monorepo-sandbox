@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["packages:react"],
+  "extends": ["packages:react", "packages:apollo"],
   "npm": {
     "prConcurrentLimit": 5,
     "prHourlyLimit": 10
@@ -39,7 +39,7 @@
       {
         "matchManagers": ["npm"],
         "groupName": "nestjs",
-        "matchPackagePrefixes": ["@nest"]
+        "matchPackagePrefixes": ["@nestjs"]
       },
       {
         "matchManagers": ["npm"],
@@ -48,21 +48,15 @@
       },
       {
         "matchManagers": ["npm"],
-        "matchUpdateTypes": ["minor", "patch"],
-        "matchDepTypes": ["dependencies"],
-        "groupName": "dependencies"
+        "groupName": "typescript",
+        "matchPackageNames": ["typescript", "ttypescript", "ts-loader", "ts-node", "tsconfig-paths"]
       },
       {
         "managers": ["npm"],
         "additionalBranchPrefix": "{{baseDir}}-",
-        "packagePatterns": [".*"],
-        "commitMessageSuffix": "({{baseDir}})"
-      },
-      {
-        "matchManagers": ["npm"],
         "matchUpdateTypes": ["minor", "patch"],
-        "matchDepTypes": ["devDependencies", "peerDependencies"],
-        "groupName": "npm minor devDependencies"
+        "matchDepTypes": ["devDependencies", "peerDependencies", "dependencies"],
+        "commitMessageSuffix": "({{baseDir}})"
       }
   ]
 }
