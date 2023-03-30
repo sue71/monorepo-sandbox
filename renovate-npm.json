@@ -3,7 +3,7 @@
   "extends": ["packages:react", "packages:apollographql"],
   "npm": {
     "prConcurrentLimit": 5,
-    "prHourlyLimit": 10
+    "prHourlyLimit": 0
   },
   "packageRules": [
       {
