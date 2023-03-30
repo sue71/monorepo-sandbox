@@ -34,6 +34,12 @@
       },
       {
         "matchManagers": ["npm"],
+        "groupName": "react",
+        "extends": ["packages:react"],
+        "matchPackageNames": ["@types/react"]
+      },
+      {
+        "matchManagers": ["npm"],
         "groupName": "babel",
         "matchPackagePrefixes": ["@babel"]
       },
