@@ -19,6 +19,7 @@
       },
       {
         "matchManagers": ["npm"],
+        "groupName": "types",
         "matchPackagePrefixes": ["@types"],
         "automerge": true,
         "major": {
@@ -53,6 +54,7 @@
       },
       {
         "managers": ["npm"],
+        "groupName": "{{baseDir}}",
         "additionalBranchPrefix": "{{baseDir}}-",
         "matchUpdateTypes": ["minor", "patch"],
         "matchDepTypes": ["devDependencies", "peerDependencies", "dependencies"],
