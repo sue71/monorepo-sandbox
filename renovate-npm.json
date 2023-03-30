@@ -20,7 +20,7 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "linters",
+        "groupName": "lint tools",
         "extends": ["packages:linters"],
         "matchPackagePatterns": ["^eslint"],
         "matchPackagePrefixes": ["@commitlint/"],
@@ -28,19 +28,18 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "test",
+        "groupName": "test tools",
         "extends": ["packages:jsTest"],
         "matchPackageNames": ["@swc/jest"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "react",
-        "extends": ["packages:react"],
-        "matchPackageNames": ["@types/react"]
+        "groupName": "react core",
+        "matchPackageNames": ["@types/react", "react", "react-dom"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "apollographql",
+        "groupName": "graphql core",
         "extends": ["packages:apollographql"],
         "matchPackageNames": ["graphql"]
       },
@@ -56,24 +55,24 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "react-hook-form",
+        "groupName": "react-hook-form core",
         "matchPackagePrefixes": ["@hookform"],
         "matchPackageNames": ["react-hook-form"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "chakra-ui",
+        "groupName": "chakra-ui core",
         "matchPackagePatterns": ["^@chakra-ui"],
         "matchPackageNames": ["@emotion/react", "@emotion/styled"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "@nestjs",
-        "matchPackagePrefixes": ["@nestjs"]
+        "groupName": "nestjs",
+        "matchPackagePrefixes": ["@nestjs/"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "@nextjs",
+        "groupName": "nextjs",
         "matchPackageNames": ["next", "next-pwa"]
       },
       {
