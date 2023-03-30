@@ -20,7 +20,7 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "lint tools",
+        "groupName": "linters",
         "extends": ["packages:linters"],
         "matchPackagePatterns": ["^eslint"],
         "matchPackagePrefixes": ["@commitlint/"],
@@ -34,12 +34,12 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "react core",
+        "groupName": "react packages",
         "matchPackageNames": ["@types/react", "react", "react-dom"]
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "graphql core",
+        "groupName": "apollo",
         "extends": ["packages:apollographql"],
         "matchPackageNames": ["graphql"]
       },
