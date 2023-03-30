@@ -20,7 +20,6 @@
       },
       {
         "matchManagers": ["npm"],
-        "groupName": "types",
         "matchPackagePrefixes": ["@types"],
         "automerge": true,
         "major": {
