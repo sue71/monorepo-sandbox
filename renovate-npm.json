@@ -2,83 +2,114 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "npm": {
     "prConcurrentLimit": 5,
-    "prHourlyLimit": 0,
     "platformAutomerge": true
   },
   "packageRules": [
-      {
-        "matchManagers": ["npm"],
-        "semanticCommitScope": "deps, typescript"
-      },
-      {
-        "matchManagers": ["npm"],
-        "matchPackagePrefixes": ["@types/"],
-        "automerge": true,
-        "major": {
-          "automerge": false
-        }
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "linters",
-        "extends": ["packages:linters"],
-        "matchPackagePatterns": ["^eslint"],
-        "matchPackagePrefixes": ["@commitlint/"],
-        "matchPackageNames": ["prettier"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "test tools",
-        "extends": ["packages:jsTest"],
-        "matchPackageNames": ["@swc/jest"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "react packages",
-        "matchPackageNames": ["@types/react", "react", "react-dom"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "apollo",
-        "extends": ["packages:apollographql"],
-        "matchPackageNames": ["graphql"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "babel",
-        "matchPackagePrefixes": ["@babel"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "sentry",
-        "matchPackagePatterns": ["^@sentry"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "react-hook-form core",
-        "matchPackagePrefixes": ["@hookform"],
-        "matchPackageNames": ["react-hook-form"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "chakra-ui core",
-        "matchPackagePatterns": ["^@chakra-ui"],
-        "matchPackageNames": ["@emotion/react", "@emotion/styled"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "nestjs",
-        "matchPackagePrefixes": ["@nestjs/"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "nextjs",
-        "matchPackageNames": ["next", "next-pwa"]
-      },
-      {
-        "matchManagers": ["npm"],
-        "groupName": "typescript",
-        "matchPackageNames": ["typescript", "ttypescript", "ts-loader", "ts-node", "tsconfig-paths"]
+    {
+      "matchManagers": ["npm"],
+      "semanticCommitScope": "deps, typescript"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": ["@types/"],
+      "automerge": true,
+      "major": {
+        "automerge": false
       }
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["typescript", "ts-loader", "ts-node", "tsconfig-paths"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "lint tools",
+      "extends": ["packages:linters"],
+      "matchPackagePatterns": ["^eslint", "^prettier"],
+      "matchPackagePrefixes": ["@commitlint/"],
+      "matchPackageNames": ["prettier"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "test tools",
+      "extends": ["packages:jsTest"],
+      "matchPackagePatterns": ["^jest"],
+      "matchPackageNames": ["@swc/jest", "ts-auto-mock", "ttypescript"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "react packages",
+      "matchPackageNames": ["@types/react", "react", "react-dom"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "apollo packages",
+      "extends": ["packages:apollographql"],
+      "matchPackageNames": ["graphql"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "babel packages",
+      "matchPackagePrefixes": ["@babel/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "sentry packages",
+      "matchPackagePrefixes": ["@sentry/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "react-hook-form packages",
+      "matchPackagePrefixes": ["@hookform/"],
+      "matchPackageNames": ["react-hook-form"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "chakra-ui packages",
+      "matchPackagePrefixes": ["@chakra-ui/", "@emotion/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "nestjs packages",
+      "matchPackagePrefixes": ["@nestjs/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "nextjs packages",
+      "matchPackageNames": ["next", "next-pwa"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "swc packages",
+      "matchPackagePrefixes": ["@swc/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "graphql-codegen packages",
+      "matchPackagePrefixes": ["@graphql-codegen/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "opentelemetry packages",
+      "matchPackagePrefixes": ["@opentelemetry/"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "groupName": "storybook packages",
+      "matchPackagePrefixes": ["@storybook/"],
+      "matchPackageNames": ["storybook"]
+    }
   ]
 }
