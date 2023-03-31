@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>sue71/monorepo-sandbox//gen/renovate.npm.gen"],
   "npm": {
     "prConcurrentLimit": 5,
     "platformAutomerge": true
