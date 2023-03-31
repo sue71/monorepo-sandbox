@@ -5,10 +5,12 @@
   "packageManager": "yarn@3.3.1",
   "repository": "ssh://git@github.com/sue71/monorepo-sandbox",
   "author": "sue71 <s.masaki07@gmail.com>",
-  "workspaces": [
-    "typescript/apps/*",
-    "typescript/libs/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "typescript/libs/*",
+      "typescript/apps/*"
+    ]
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "17.0.3",
