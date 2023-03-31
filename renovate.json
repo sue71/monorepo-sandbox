@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":enableVulnerabilityAlerts", "local>sue71/monorepo-sandbox//renovate-rules/renovate.npm"],
+  "extends": ["config:base", ":enableVulnerabilityAlerts", "local>sue71/monorepo-sandbox//renovate-rules/npm/renovate.npm.gen"],
   "labels": ["renovate", "kind/dependencies"],
   "enabledManagers": [
     "npm"
