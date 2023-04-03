@@ -27,7 +27,7 @@ const scopes = packageFiles.reduce((scopes, packageFile) => {
 const uniqueScopes = [...new Set(scopes)];
 
 const packageRules = uniqueScopes.map((scope) => ({
-  matchPackagePatterns: [`${scope}/*`],
+  matchPackagePrefixes: [`${scope}/`],
   groupName: `${scope} packages`,
 }));
 

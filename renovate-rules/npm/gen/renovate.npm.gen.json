@@ -7,62 +7,62 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "@nestjs/*"
+      "matchPackagePrefixes": [
+        "@nestjs/"
       ],
       "groupName": "@nestjs packages"
     },
     {
-      "matchPackagePatterns": [
-        "@apollo/*"
+      "matchPackagePrefixes": [
+        "@apollo/"
       ],
       "groupName": "@apollo packages"
     },
     {
-      "matchPackagePatterns": [
-        "@braze/*"
+      "matchPackagePrefixes": [
+        "@braze/"
       ],
       "groupName": "@braze packages"
     },
     {
-      "matchPackagePatterns": [
-        "@chakra-ui/*"
+      "matchPackagePrefixes": [
+        "@chakra-ui/"
       ],
       "groupName": "@chakra-ui packages"
     },
     {
-      "matchPackagePatterns": [
-        "@emotion/*"
+      "matchPackagePrefixes": [
+        "@emotion/"
       ],
       "groupName": "@emotion packages"
     },
     {
-      "matchPackagePatterns": [
-        "@hookform/*"
+      "matchPackagePrefixes": [
+        "@hookform/"
       ],
       "groupName": "@hookform packages"
     },
     {
-      "matchPackagePatterns": [
-        "@opentelemetry/*"
+      "matchPackagePrefixes": [
+        "@opentelemetry/"
       ],
       "groupName": "@opentelemetry packages"
     },
     {
-      "matchPackagePatterns": [
-        "@sentry/*"
+      "matchPackagePrefixes": [
+        "@sentry/"
       ],
       "groupName": "@sentry packages"
     },
     {
-      "matchPackagePatterns": [
-        "@types/*"
+      "matchPackagePrefixes": [
+        "@types/"
       ],
       "groupName": "@types packages"
     },
     {
-      "matchPackagePatterns": [
-        "@wry/*"
+      "matchPackagePrefixes": [
+        "@wry/"
       ],
       "groupName": "@wry packages"
     }
