@@ -62,16 +62,6 @@
     },
     {
       "matchManagers": ["npm"],
-      "groupName": "babel packages",
-      "matchPackagePrefixes": ["@babel/"]
-    },
-    {
-      "matchManagers": ["npm"],
-      "groupName": "sentry packages",
-      "matchPackagePrefixes": ["@sentry/"]
-    },
-    {
-      "matchManagers": ["npm"],
       "groupName": "react-hook-form packages",
       "matchPackagePrefixes": ["@hookform/"],
       "matchPackageNames": ["react-hook-form"]
@@ -83,28 +73,8 @@
     },
     {
       "matchManagers": ["npm"],
-      "groupName": "nestjs packages",
-      "matchPackagePrefixes": ["@nestjs/"]
-    },
-    {
-      "matchManagers": ["npm"],
       "groupName": "nextjs packages",
       "matchPackageNames": ["next", "next-pwa"]
-    },
-    {
-      "matchManagers": ["npm"],
-      "groupName": "swc packages",
-      "matchPackagePrefixes": ["@swc/"]
-    },
-    {
-      "matchManagers": ["npm"],
-      "groupName": "graphql-codegen packages",
-      "matchPackagePrefixes": ["@graphql-codegen/"]
-    },
-    {
-      "matchManagers": ["npm"],
-      "groupName": "opentelemetry packages",
-      "matchPackagePrefixes": ["@opentelemetry/"]
     },
     {
       "matchManagers": ["npm"],
