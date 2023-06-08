@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>sue71/monorepo-sandbox//renovate-rules/npm/gen/renovate.npm.gen"],
   "npm": {
-    "prConcurrentLimit": 5,
-    "platformAutomerge": true
+    "prConcurrentLimit": 0
   },
   "packageRules": [
     {
@@ -13,10 +12,7 @@
     {
       "matchManagers": ["npm"],
       "matchPackagePrefixes": ["@types/"],
-      "automerge": true,
-      "major": {
-        "automerge": false
-      }
+      "automerge": true
     },
     {
       "matchManagers": ["npm"],
