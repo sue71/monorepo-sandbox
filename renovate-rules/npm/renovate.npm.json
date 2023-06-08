@@ -15,7 +15,7 @@
       "matchPackagePrefixes": ["@types/"],
       "automerge": true,
       "major": {
-        "automerge": false
+        "automerge": true
       }
     },
     {
