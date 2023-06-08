@@ -77,7 +77,7 @@
     "@types/js-cookie": "3.0.2",
     "@types/lodash.snakecase": "4.1.7",
     "@types/node": "18.11.10",
-    "@types/react": "18.0.26",
+    "@types/react": "18.2.9",
     "@types/react-avatar-editor": "12.0.0",
     "@types/react-dom": "18.0.10",
     "babel-plugin-react-remove-properties": "0.3.0",
