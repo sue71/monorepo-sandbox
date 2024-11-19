@@ -31,7 +31,7 @@
     "dayjs": "1.11.4",
     "deepmerge": "4.2.2",
     "encoding-japanese": "2.0.0",
-    "firebase": "9.15.0",
+    "firebase": "10.9.0",
     "framer-motion": "5.5.5",
     "graphql": "16.5.0",
     "i18next": "21.8.14",
