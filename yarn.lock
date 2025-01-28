@@ -16100,7 +16100,7 @@ __metadata:
     swiper: 8.3.2
     ts-node: 10.9.2
     unleash-client: 3.15.0
-    use-debounce: 8.0.3
+    use-debounce: 10.0.4
     uuid: 9.0.0
     webpack: 5.76.0
     xss: 1.0.13
@@ -20401,12 +20401,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-debounce@npm:8.0.3":
-  version: 8.0.3
-  resolution: "use-debounce@npm:8.0.3"
+"use-debounce@npm:10.0.4":
+  version: 10.0.4
+  resolution: "use-debounce@npm:10.0.4"
   peerDependencies:
-    react: ">=16.8.0"
-  checksum: 1790e540b53298e9abcf34d4a9bd4fc89a747644dcb65b42b02568a7c28cfa57d7756fae87c0b37b73261d2935b0c46ea5b53dfcbaf22e30f20728e36c703f9c
+    react: "*"
+  checksum: 59d7e014e9ac6ba57a5b1c411cf1c088b44987b898dd64a4dc73a02da66a5ecacbc3521e261d042e7d388445b69c820b43837a1533fe9def7f85adcaaec472d0
   languageName: node
   linkType: hard
 
