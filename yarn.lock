@@ -4923,12 +4923,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:2.9.6":
-  version: 2.9.6
-  resolution: "@hookform/resolvers@npm:2.9.6"
+"@hookform/resolvers@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@hookform/resolvers@npm:4.0.0"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 23463eab50f4081b8ae0d9a7475b7cad7454c8b94a5685036455c0b6dfe7bc3e0c33cba2cb1956d2358eadcb12b3e3afebb4b16e3ca974ccfa91026a14e44455
+  checksum: e7b64511f2cc097f0716bb04d400c6d20b54cb75493452cebe5cd596da5730d03087384fceac3613c70eb2ed886c24e7a95865b02c3118dde74f1afdcb6ebb77
   languageName: node
   linkType: hard
 
@@ -16042,7 +16042,7 @@ __metadata:
     "@graphql-codegen/near-operation-file-preset": 2.4.0
     "@graphql-codegen/typescript-operations": 2.5.2
     "@graphql-codegen/typescript-react-apollo": 3.3.2
-    "@hookform/resolvers": 2.9.6
+    "@hookform/resolvers": 4.0.0
     "@next/bundle-analyzer": 13.1.1
     "@opentelemetry/api": 1.4.0
     "@sentry/nextjs": 7.28.1
