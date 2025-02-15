@@ -4923,12 +4923,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:2.9.6":
-  version: 2.9.6
-  resolution: "@hookform/resolvers@npm:2.9.6"
+"@hookform/resolvers@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@hookform/resolvers@npm:4.1.0"
+  dependencies:
+    caniuse-lite: ^1.0.30001698
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 23463eab50f4081b8ae0d9a7475b7cad7454c8b94a5685036455c0b6dfe7bc3e0c33cba2cb1956d2358eadcb12b3e3afebb4b16e3ca974ccfa91026a14e44455
+  checksum: ea5520383edc837b742afa8a0fb49f950d0d577ecb2559d5a1584d7f2013075e8722ba14e6de111abfa98c4555cbd86e8fcf6f89ec8187470fffe08dd55f392c
   languageName: node
   linkType: hard
 
@@ -8883,6 +8885,13 @@ __metadata:
   version: 1.0.30001472
   resolution: "caniuse-lite@npm:1.0.30001472"
   checksum: 60f2fbe9b7fc6d88c500779ddbebda5fb0ba86eece32ecf3c18d5c1f74e2c36ac5151ed6464f72b6c43c43dc6a3d1ea83c73a195ebb6d2f49738add1f8a0cd4d
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001698":
+  version: 1.0.30001699
+  resolution: "caniuse-lite@npm:1.0.30001699"
+  checksum: 697172065537b0f33c428fe8561f4cba6796428dc8e3e56f78eee28404edfcbea70d48bb109ab6c6536de6da90e331058a2cb8ef3a15c58b2226c96ee558bc07
   languageName: node
   linkType: hard
 
@@ -16042,7 +16051,7 @@ __metadata:
     "@graphql-codegen/near-operation-file-preset": 2.4.0
     "@graphql-codegen/typescript-operations": 2.5.2
     "@graphql-codegen/typescript-react-apollo": 3.3.2
-    "@hookform/resolvers": 2.9.6
+    "@hookform/resolvers": 4.1.0
     "@next/bundle-analyzer": 13.1.1
     "@opentelemetry/api": 1.4.0
     "@sentry/nextjs": 7.28.1
