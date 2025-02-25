@@ -6976,12 +6976,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-avatar-editor@npm:13.0.3":
-  version: 13.0.3
-  resolution: "@types/react-avatar-editor@npm:13.0.3"
+"@types/react-avatar-editor@npm:13.0.4":
+  version: 13.0.4
+  resolution: "@types/react-avatar-editor@npm:13.0.4"
   dependencies:
     "@types/react": "*"
-  checksum: 32c4d51874a186fb4542a9377ff35f3a41a06668d48c51ded84f0c40f379d34a2bf198ef5d1cca226d8b7d8c0e3cc4ff7b3eca9b0f72ff76568b012bd63296b3
+  checksum: 26aabb038899c9880884e897bc7ff81b19688e851295b63eebf3121ba92746c46ff093a487c217923e28dc8ee7c4e5df283a3915f6cc2e05e89caacb26996650
   languageName: node
   linkType: hard
 
@@ -16062,7 +16062,7 @@ __metadata:
     "@types/lodash.snakecase": 4.1.9
     "@types/node": 22.13.5
     "@types/react": 18.2.9
-    "@types/react-avatar-editor": 13.0.3
+    "@types/react-avatar-editor": 13.0.4
     "@types/react-dom": 19.0.4
     "@types/uuid": 10.0.0
     "@wry/equality": 0.5.2
