@@ -6918,12 +6918,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.13.5":
-  version: 22.13.5
-  resolution: "@types/node@npm:22.13.5"
+"@types/node@npm:22.13.8":
+  version: 22.13.8
+  resolution: "@types/node@npm:22.13.8"
   dependencies:
     undici-types: ~6.20.0
-  checksum: 8789d9bc3efd212819fd03f7bbd429901b076703e9852ccf4950c8c7cd300d5d5a05f273d0936cbaf28194485d2bd0c265a1a25390720e353a53359526c28fb3
+  checksum: 6c07f95d88f1e286ec4517b35c8b53075e6076855fc52536c1ffad0e6b9091ec9ac2a0dd681b47e57da9196868c69342711a51ef1545f157aa893b5c546b8a36
   languageName: node
   linkType: hard
 
@@ -15782,7 +15782,7 @@ __metadata:
     "@commitlint/cli": 17.0.3
     "@commitlint/config-conventional": 17.0.3
     "@types/jest": 29.2.4
-    "@types/node": 22.13.5
+    "@types/node": 22.13.8
     "@types/react": 18.2.9
     "@typescript-eslint/eslint-plugin": 5.46.1
     "@typescript-eslint/parser": 5.46.1
@@ -15923,7 +15923,7 @@ __metadata:
     "@nestjs/schematics": 9.0.0
     "@nestjs/testing": 9.0.0
     "@types/jest": 29.0.0
-    "@types/node": 22.13.5
+    "@types/node": 22.13.8
     "@typescript-eslint/eslint-plugin": 5.0.0
     "@typescript-eslint/parser": 5.0.0
     eslint: 8.0.1
@@ -16060,7 +16060,7 @@ __metadata:
     "@types/grecaptcha": 3.0.9
     "@types/js-cookie": 3.0.6
     "@types/lodash.snakecase": 4.1.9
-    "@types/node": 22.13.5
+    "@types/node": 22.13.8
     "@types/react": 18.2.9
     "@types/react-avatar-editor": 13.0.4
     "@types/react-dom": 19.0.4
