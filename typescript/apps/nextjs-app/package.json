@@ -34,7 +34,7 @@
     "firebase": "9.15.0",
     "framer-motion": "5.5.5",
     "graphql": "16.5.0",
-    "i18next": "21.8.14",
+    "i18next": "24.2.3",
     "js-cookie": "3.0.1",
     "jszip": "3.10.1",
     "lodash.snakecase": "4.1.1",
