@@ -76,7 +76,7 @@
     "@types/grecaptcha": "3.0.9",
     "@types/js-cookie": "3.0.6",
     "@types/lodash.snakecase": "4.1.9",
-    "@types/node": "22.15.9",
+    "@types/node": "22.15.10",
     "@types/react": "18.2.9",
     "@types/react-avatar-editor": "13.0.4",
     "@types/react-dom": "19.1.3",
