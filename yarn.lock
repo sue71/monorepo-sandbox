@@ -12640,12 +12640,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:21.8.14":
-  version: 21.8.14
-  resolution: "i18next@npm:21.8.14"
+"i18next@npm:21.10.0":
+  version: 21.10.0
+  resolution: "i18next@npm:21.10.0"
   dependencies:
     "@babel/runtime": ^7.17.2
-  checksum: 83b1a57d761c3d29b90f4e87eb9945902fa13d7750f11bc7f22e8c9999f7e5bf9b2a30c44a9b47569c8ea704573b02a562c2678cf2281073197ace07657d21be
+  checksum: f997985e2d4d15a62a0936a82ff6420b97f3f971e776fe685bdd50b4de0cb4dc2198bc75efe6b152844794ebd5040d8060d6d152506a687affad534834836d81
   languageName: node
   linkType: hard
 
@@ -16080,7 +16080,7 @@ __metadata:
     framer-motion: 5.5.5
     globby: 11.0.4
     graphql: 16.5.0
-    i18next: 21.8.14
+    i18next: 21.10.0
     jest-fetch-mock: 3.0.3
     js-cookie: 3.0.1
     jszip: 3.10.1
