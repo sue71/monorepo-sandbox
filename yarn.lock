@@ -6638,10 +6638,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chance@npm:1.1.6":
-  version: 1.1.6
-  resolution: "@types/chance@npm:1.1.6"
-  checksum: a1845ff0a70989d581b8f7628aaef1807276c0ae22d0c038013ebcac4f4bd57e6a765319377994cc3cae2122838638fdb2afe5232ee6b987b3f7ea2cddecbead
+"@types/chance@npm:1.1.7":
+  version: 1.1.7
+  resolution: "@types/chance@npm:1.1.7"
+  checksum: 2c5390c6f412911bc8008c4e9ce5786e060782011e13a93fa0129e339b2c8734a39c5dd046e3309407e760baa00cec337aa5d4c73e1a001ba52abdedbbe27c23
   languageName: node
   linkType: hard
 
@@ -6918,12 +6918,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.15.32":
-  version: 22.15.32
-  resolution: "@types/node@npm:22.15.32"
+"@types/node@npm:22.15.34":
+  version: 22.15.34
+  resolution: "@types/node@npm:22.15.34"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 0e26f227a91e0b50dc79d5b7ad2705060598da4a418ea1c612609e6a72fcdbcbcc5b285214619973dc509aeec9cdff5ca016e642efd09d572b877151e591c01a
+  checksum: bc0846b6130975afca65bfe6d43d732e621b583aaa500a90569799926e0317b63044a32226ab49cd07d966887ac44ed6789bf8e16e2af0f9442ebd6784e1f290
   languageName: node
   linkType: hard
 
@@ -15782,7 +15782,7 @@ __metadata:
     "@commitlint/cli": 17.0.3
     "@commitlint/config-conventional": 17.0.3
     "@types/jest": 29.2.4
-    "@types/node": 22.15.32
+    "@types/node": 22.15.34
     "@types/react": 18.2.9
     "@typescript-eslint/eslint-plugin": 5.46.1
     "@typescript-eslint/parser": 5.46.1
@@ -15923,7 +15923,7 @@ __metadata:
     "@nestjs/schematics": 9.0.0
     "@nestjs/testing": 9.0.0
     "@types/jest": 29.0.0
-    "@types/node": 22.15.32
+    "@types/node": 22.15.34
     "@typescript-eslint/eslint-plugin": 5.0.0
     "@typescript-eslint/parser": 5.0.0
     eslint: 8.0.1
@@ -16055,12 +16055,12 @@ __metadata:
     "@testing-library/user-event": 13.5.0
     "@types/apollo-upload-client": 18.0.0
     "@types/blueimp-load-image": 5.16.6
-    "@types/chance": 1.1.6
+    "@types/chance": 1.1.7
     "@types/encoding-japanese": 2.2.1
     "@types/grecaptcha": 3.0.9
     "@types/js-cookie": 3.0.6
     "@types/lodash.snakecase": 4.1.9
-    "@types/node": 22.15.32
+    "@types/node": 22.15.34
     "@types/react": 18.2.9
     "@types/react-avatar-editor": 13.0.4
     "@types/react-dom": 19.1.6
