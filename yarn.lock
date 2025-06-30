@@ -1747,7 +1747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.8.4":
   version: 7.22.3
   resolution: "@babel/runtime@npm:7.22.3"
   dependencies:
@@ -1762,6 +1762,13 @@ __metadata:
   dependencies:
     regenerator-runtime: ^0.13.11
   checksum: 7b33e25bfa9e0e1b9e8828bb61b2d32bdd46b41b07ba7cb43319ad08efc6fda8eb89445193e67d6541814627df0ca59122c0ea795e412b99c5183a0540d338ab
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.27.6":
+  version: 7.27.6
+  resolution: "@babel/runtime@npm:7.27.6"
+  checksum: 3f7b879df1823c0926bd5dbc941c62f5d60faa790c1aab9758c04799e1f04ee8d93553be9ec059d4e5882f19fe03cbe8933ee4f46212dced0f6d8205992c9c9a
   languageName: node
   linkType: hard
 
@@ -12640,12 +12647,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:21.8.14":
-  version: 21.8.14
-  resolution: "i18next@npm:21.8.14"
+"i18next@npm:25.3.0":
+  version: 25.3.0
+  resolution: "i18next@npm:25.3.0"
   dependencies:
-    "@babel/runtime": ^7.17.2
-  checksum: 83b1a57d761c3d29b90f4e87eb9945902fa13d7750f11bc7f22e8c9999f7e5bf9b2a30c44a9b47569c8ea704573b02a562c2678cf2281073197ace07657d21be
+    "@babel/runtime": ^7.27.6
+  peerDependencies:
+    typescript: ^5
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 402f66202bb21d3312174686922a1cccca95b88e3085bda3dfff338b6ea1971f95d987e58a08e07c1522d523b2b9a07a8e7ba9a647c2497f2adb07278cdb5ec1
   languageName: node
   linkType: hard
 
@@ -16080,7 +16092,7 @@ __metadata:
     framer-motion: 5.5.5
     globby: 11.0.4
     graphql: 16.5.0
-    i18next: 21.8.14
+    i18next: 25.3.0
     jest-fetch-mock: 3.0.3
     js-cookie: 3.0.1
     jszip: 3.10.1
