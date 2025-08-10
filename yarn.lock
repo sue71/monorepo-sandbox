@@ -16092,7 +16092,7 @@ __metadata:
     react-avatar-editor: 11.1.0
     react-dom: 18.2.0
     react-dropzone: 14.2.2
-    react-easy-crop: 4.4.0
+    react-easy-crop: 4.7.5
     react-hook-form: 7.34.2
     react-i18next: 11.18.1
     react-sortable-hoc: 2.0.0
@@ -17416,16 +17416,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-easy-crop@npm:4.4.0":
-  version: 4.4.0
-  resolution: "react-easy-crop@npm:4.4.0"
+"react-easy-crop@npm:4.7.5":
+  version: 4.7.5
+  resolution: "react-easy-crop@npm:4.7.5"
   dependencies:
     normalize-wheel: ^1.0.1
     tslib: 2.0.1
   peerDependencies:
     react: ">=16.4.0"
     react-dom: ">=16.4.0"
-  checksum: 63d3760e22196930060416864295d1abf8509e7847d26541b66a4aec5330a8ac6c4bb5d2db9f77ee8cb7d248612a8946a37f8893a1a0a068d577aa6c7c5bdc0d
+  checksum: 5f670c18c3e0fe827b5eb4b15d1bf0a1ed4b7c0a8910402abb8c64254f706aa43b0ec885b4cd7b487e06603641471254055da200fc3c60a9ffe9d50923ddaebe
   languageName: node
   linkType: hard
 
