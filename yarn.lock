@@ -10423,10 +10423,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encoding-japanese@npm:2.0.0":
-  version: 2.0.0
-  resolution: "encoding-japanese@npm:2.0.0"
-  checksum: 6b1ee85e81d16bfbeb96b887239cef888859b071164c916088078f4db4c10f7b83e4042dfd804c68063ce50c129abd02c42ac1753e60ccd2705f4c103ec798f1
+"encoding-japanese@npm:2.2.0":
+  version: 2.2.0
+  resolution: "encoding-japanese@npm:2.2.0"
+  checksum: 380f4cd7f470f31c299e071fc4061fbf0cc11f2357bf345bde08d1d66bb1b93e6352cb068dc5cc04e9384b78b2144de3e7906bea81c901a2859eabe06af4fa4b
   languageName: node
   linkType: hard
 
@@ -16075,7 +16075,7 @@ __metadata:
     dayjs: 1.11.4
     deepmerge: 4.2.2
     dependency-cruiser: 12.5.0
-    encoding-japanese: 2.0.0
+    encoding-japanese: 2.2.0
     firebase: 9.15.0
     framer-motion: 5.5.5
     globby: 11.0.4
