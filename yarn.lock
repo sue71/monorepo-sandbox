@@ -7757,12 +7757,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:8.8.1":
-  version: 8.8.1
-  resolution: "acorn@npm:8.8.1"
+"acorn@npm:8.8.2, acorn@npm:^8.0.4, acorn@npm:^8.2.4, acorn@npm:^8.4.1, acorn@npm:^8.5.0, acorn@npm:^8.7.1, acorn@npm:^8.8.0, acorn@npm:^8.8.2":
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -7772,15 +7772,6 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 1860f23c2107c910c6177b7b7be71be350db9e1080d814493fae143ae37605189504152d1ba8743ba3178d0b37269ce1ffc42b101547fdc1827078f82671e407
-  languageName: node
-  linkType: hard
-
-"acorn@npm:^8.0.4, acorn@npm:^8.2.4, acorn@npm:^8.4.1, acorn@npm:^8.5.0, acorn@npm:^8.7.1, acorn@npm:^8.8.0, acorn@npm:^8.8.2":
-  version: 8.8.2
-  resolution: "acorn@npm:8.8.2"
-  bin:
-    acorn: bin/acorn
-  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -9357,10 +9348,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:10.0.0":
-  version: 10.0.0
-  resolution: "commander@npm:10.0.0"
-  checksum: 9f6495651f878213005ac744dd87a85fa3d9f2b8b90d1c19d0866d666bda7f735adfd7c2f10dfff345782e2f80ea258f98bb4efcef58e4e502f25f883940acfd
+"commander@npm:10.0.1":
+  version: 10.0.1
+  resolution: "commander@npm:10.0.1"
+  checksum: 436901d64a818295803c1996cd856621a74f30b9f9e28a588e726b2b1670665bccd7c1a77007ebf328729f0139838a88a19265858a0fa7a8728c4656796db948
   languageName: node
   linkType: hard
 
@@ -9368,13 +9359,6 @@ __metadata:
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
   checksum: d7b9913ff92cae20cb577a4ac6fcc121bd6223319e54a40f51a14740a681ad5c574fd29a57da478a5f234a6fa6c52cbf0b7c641353e03c648b1ae85ba670b977
-  languageName: node
-  linkType: hard
-
-"commander@npm:9.4.1":
-  version: 9.4.1
-  resolution: "commander@npm:9.4.1"
-  checksum: bfb18e325a5bdf772763c2213d5c7d9e77144d944124e988bcd8e5e65fb6d45d5d4e86b09155d0f2556c9a59c31e428720e57968bcd050b2306e910a0bf3cf13
   languageName: node
   linkType: hard
 
@@ -10113,26 +10097,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dependency-cruiser@npm:12.5.0":
-  version: 12.5.0
-  resolution: "dependency-cruiser@npm:12.5.0"
+"dependency-cruiser@npm:12.12.2":
+  version: 12.12.2
+  resolution: "dependency-cruiser@npm:12.12.2"
   dependencies:
-    acorn: 8.8.1
+    acorn: 8.8.2
     acorn-jsx: 5.3.2
     acorn-jsx-walk: 2.0.0
     acorn-loose: 8.3.0
     acorn-walk: 8.2.0
     ajv: 8.12.0
     chalk: ^4.1.2
-    commander: 10.0.0
-    enhanced-resolve: 5.12.0
+    commander: 10.0.1
+    enhanced-resolve: 5.14.0
     figures: ^3.2.0
     get-stream: ^6.0.1
     glob: 7.2.0
     handlebars: 4.7.7
     ignore: 5.2.4
     indent-string: ^4.0.0
-    interpret: ^3.1.0
+    interpret: ^3.1.1
     is-installed-globally: 0.4.0
     json5: 2.2.3
     lodash: 4.17.21
@@ -10140,10 +10124,10 @@ __metadata:
     rechoir: ^0.8.0
     safe-regex: 2.1.1
     semver: ^7.3.7
-    semver-try-require: 6.0.0
+    semver-try-require: 6.2.2
     teamcity-service-messages: 0.1.14
-    tsconfig-paths-webpack-plugin: 4.0.0
-    watskeburt: 0.9.0
+    tsconfig-paths-webpack-plugin: 4.0.1
+    watskeburt: 0.11.1
     wrap-ansi: ^7.0.0
   bin:
     depcruise: bin/dependency-cruise.js
@@ -10152,7 +10136,7 @@ __metadata:
     depcruise-wrap-stream-in-html: bin/wrap-stream-in-html.js
     dependency-cruise: bin/dependency-cruise.js
     dependency-cruiser: bin/dependency-cruise.js
-  checksum: 719871e06305df00f713df1ebfa39637237d701b263a270f09eec04421a785a197d3f8c1aafc905f1464fde70adc35d09fe10e6d3ae258cab505c0fd523db353
+  checksum: d9c0401cdbf3c8faa997725fc48e0d2f59d7eca84eec734a457bf79f6d8f10c9b0944e36cd6eccaae0e78570c38733291475baf285b78e7fb9259737d21cb591
   languageName: node
   linkType: hard
 
@@ -10448,13 +10432,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:5.12.0":
-  version: 5.12.0
-  resolution: "enhanced-resolve@npm:5.12.0"
+"enhanced-resolve@npm:5.14.0":
+  version: 5.14.0
+  resolution: "enhanced-resolve@npm:5.14.0"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
-  checksum: bf3f787facaf4ce3439bef59d148646344e372bef5557f0d37ea8aa02c51f50a925cd1f07b8d338f18992c29f544ec235a8c64bcdb56030196c48832a5494174
+  checksum: fff1aaebbf376371e5df4502e111967f6247c37611ad3550e4e7fca657f6dcb29ef7ffe88bf14e5010b78997f1ddd984a8db97af87ee0a5477771398fd326f5b
   languageName: node
   linkType: hard
 
@@ -12889,7 +12873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"interpret@npm:^3.1.0":
+"interpret@npm:^3.1.1":
   version: 3.1.1
   resolution: "interpret@npm:3.1.1"
   checksum: 35cebcf48c7351130437596d9ab8c8fe131ce4038da4561e6d665f25640e0034702a031cf7e3a5cea60ac7ac548bf17465e0571ede126f3d3a6933152171ac82
@@ -16074,7 +16058,7 @@ __metadata:
     cypress: 10.3.1
     dayjs: 1.11.4
     deepmerge: 4.2.2
-    dependency-cruiser: 12.5.0
+    dependency-cruiser: 12.12.2
     encoding-japanese: 2.0.0
     firebase: 9.15.0
     framer-motion: 5.5.5
@@ -18324,12 +18308,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver-try-require@npm:6.0.0":
-  version: 6.0.0
-  resolution: "semver-try-require@npm:6.0.0"
+"semver-try-require@npm:6.2.2":
+  version: 6.2.2
+  resolution: "semver-try-require@npm:6.2.2"
   dependencies:
     semver: ^7.3.8
-  checksum: a54ddae01c0deade647c15832a86fa541abdfeeca13d0817ff0f870d18680e330a98633a7aee01e8b2e0cf9167c6975982b0d365d28a8425359e1903cd5da8b6
+  checksum: f201191463feac0fd43bd9bea832bead01e44ff8237dfba51444da746cac0403b0324e8c5c14a3e9a9379065af5d430859307d6c52bf9eaea83d1fef0c86bad9
   languageName: node
   linkType: hard
 
@@ -19718,14 +19702,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths-webpack-plugin@npm:4.0.0":
-  version: 4.0.0
-  resolution: "tsconfig-paths-webpack-plugin@npm:4.0.0"
+"tsconfig-paths-webpack-plugin@npm:4.0.1":
+  version: 4.0.1
+  resolution: "tsconfig-paths-webpack-plugin@npm:4.0.1"
   dependencies:
     chalk: ^4.1.0
     enhanced-resolve: ^5.7.0
-    tsconfig-paths: ^4.0.0
-  checksum: 7ff7d63c1153e6dd30ce660b006495ae5cb5cbb78b30bb59b3cb627567325d4af52c7a69dda8aec7b94d576f5385581a69307472992954c40fe6949564155397
+    tsconfig-paths: ^4.1.2
+  checksum: a09e765c4939379fa060f78bbc906d0a7be541b9b49d3ad4744e99a2e87f28aa30d549a549196159bc5a50f420fdb1391b8eed360f47ee8ce40e15dcb800b5aa
   languageName: node
   linkType: hard
 
@@ -19753,7 +19737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^4.0.0":
+"tsconfig-paths@npm:^4.0.0, tsconfig-paths@npm:^4.1.2":
   version: 4.2.0
   resolution: "tsconfig-paths@npm:4.2.0"
   dependencies:
@@ -20580,14 +20564,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"watskeburt@npm:0.9.0":
-  version: 0.9.0
-  resolution: "watskeburt@npm:0.9.0"
+"watskeburt@npm:0.11.1":
+  version: 0.11.1
+  resolution: "watskeburt@npm:0.11.1"
   dependencies:
-    commander: 9.4.1
+    commander: 10.0.1
   bin:
-    watskeburt: bin/cli.mjs
-  checksum: 15e90eacb0978de14a8047378d7818e4c983af9430c68fe8733193fb6e954550fe5773d1abc702cc34b4fe7921224eb8041fde21cbd6938a07cbb8e474c60f06
+    watskeburt: bin/cli.js
+  checksum: 1a27eef5cfae8bf340e69b054e5a7035aad3ec254f11ef5a69d26d4a26cedf0bcc2c193ab54422ccf803379c95c67150292a54bf51d855398ec37b6e57065b44
   languageName: node
   linkType: hard
 
