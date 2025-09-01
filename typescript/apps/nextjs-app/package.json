@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@apollo/client": "3.6.9",
-    "@braze/web-sdk": "4.3.0",
+    "@braze/web-sdk": "4.10.2",
     "@chakra-ui/react": "2.4.4",
     "@chakra-ui/theme": "2.2.2",
     "@chakra-ui/theme-tools": "2.0.14",
