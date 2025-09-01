@@ -79,7 +79,7 @@
     "@types/node": "22.18.0",
     "@types/react": "18.2.9",
     "@types/react-avatar-editor": "13.0.4",
-    "@types/react-dom": "19.1.8",
+    "@types/react-dom": "19.1.9",
     "babel-plugin-react-remove-properties": "0.3.0",
     "cypress": "10.3.1",
     "dependency-cruiser": "12.5.0",
