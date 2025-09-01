@@ -59,7 +59,7 @@
     "@chakra-ui/cli": "2.2.0",
     "@cypress/skip-test": "2.6.1",
     "@emotion/jest": "11.10.5",
-    "@google-cloud/secret-manager": "4.0.0",
+    "@google-cloud/secret-manager": "4.2.2",
     "@graphql-codegen/cli": "2.9.1",
     "@graphql-codegen/near-operation-file-preset": "2.4.0",
     "@graphql-codegen/typescript-operations": "2.5.2",
