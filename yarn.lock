@@ -16103,7 +16103,7 @@ __metadata:
     use-debounce: 8.0.3
     uuid: 9.0.0
     webpack: 5.76.0
-    xss: 1.0.13
+    xss: 1.0.15
     yup: 0.32.11
   languageName: unknown
   linkType: soft
@@ -21271,15 +21271,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xss@npm:1.0.13":
-  version: 1.0.13
-  resolution: "xss@npm:1.0.13"
+"xss@npm:1.0.15":
+  version: 1.0.15
+  resolution: "xss@npm:1.0.15"
   dependencies:
     commander: ^2.20.3
     cssfilter: 0.0.10
   bin:
     xss: bin/xss
-  checksum: 21909bdf60a32a703e2208cf3a942c1f82d281651bacff56d72deaba9ce553295f45540cde94f2f3e215c90efeeff6fbca70f514ea7477c805e6116915cc7c08
+  checksum: dee066ba0962105475f12ae39fecf4cd6108cb980aefad67578a349d521e6059e184c2d63695a99d58483a02f0c0d48a36816d95c0a0beb56fba60ed53ccd824
   languageName: node
   linkType: hard
 
