@@ -10037,14 +10037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:4.2.2":
-  version: 4.2.2
-  resolution: "deepmerge@npm:4.2.2"
-  checksum: a8c43a1ed8d6d1ed2b5bf569fa4c8eb9f0924034baf75d5d406e47e157a451075c4db353efea7b6bcc56ec48116a8ce72fccf867b6e078e7c561904b5897530b
-  languageName: node
-  linkType: hard
-
-"deepmerge@npm:^4.2.2":
+"deepmerge@npm:4.3.1, deepmerge@npm:^4.2.2":
   version: 4.3.1
   resolution: "deepmerge@npm:4.3.1"
   checksum: 2024c6a980a1b7128084170c4cf56b0fd58a63f2da1660dcfe977415f27b17dbe5888668b59d0b063753f3220719d5e400b7f113609489c90160bb9a5518d052
@@ -16073,7 +16066,7 @@ __metadata:
     chance: 1.1.8
     cypress: 10.3.1
     dayjs: 1.11.4
-    deepmerge: 4.2.2
+    deepmerge: 4.3.1
     dependency-cruiser: 12.5.0
     encoding-japanese: 2.0.0
     firebase: 9.15.0
