@@ -5696,12 +5696,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:13.1.1":
-  version: 13.1.1
-  resolution: "@next/bundle-analyzer@npm:13.1.1"
+"@next/bundle-analyzer@npm:13.5.11":
+  version: 13.5.11
+  resolution: "@next/bundle-analyzer@npm:13.5.11"
   dependencies:
     webpack-bundle-analyzer: 4.7.0
-  checksum: c755cb46ac812dc32f7177ccce84addcc2004648beb317fe498443a2fed2730093b8fcf74e651c6701fae3f2c6faa3a062222231457b27cf5c2af6b6fa91b50c
+  checksum: 6804565f109ba13b007d25c5b2708f81844c42f8f37919bc3b9c53cad8dfef175252f6379e32c04fbdee0001629b171ac0e2111fba55c8d35c4b4c0d1fa93c84
   languageName: node
   linkType: hard
 
@@ -16043,7 +16043,7 @@ __metadata:
     "@graphql-codegen/typescript-operations": 2.5.2
     "@graphql-codegen/typescript-react-apollo": 3.3.2
     "@hookform/resolvers": 2.9.6
-    "@next/bundle-analyzer": 13.1.1
+    "@next/bundle-analyzer": 13.5.11
     "@opentelemetry/api": 1.4.0
     "@sentry/nextjs": 7.28.1
     "@sentry/node": 7.28.1
