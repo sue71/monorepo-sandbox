@@ -8944,10 +8944,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chance@npm:1.1.8":
-  version: 1.1.8
-  resolution: "chance@npm:1.1.8"
-  checksum: e733f51e1094d7b0343a9e79f38599086442e6284fc2789cf9e072c71a0070874a1b340f9fffe4e66260899733f768cf113434be466ecb0016e3afcb60add3ee
+"chance@npm:1.1.13":
+  version: 1.1.13
+  resolution: "chance@npm:1.1.13"
+  checksum: 0bab82fc53beca321094d07b7f7933fef7b0f08492b8fc46a9322da6ea13709dc286e7ae60cbb78be3ef5488d802ec95b0c876e9d3fb5ab4177899d7377465ed
   languageName: node
   linkType: hard
 
@@ -16070,7 +16070,7 @@ __metadata:
     array-move: 4.0.0
     babel-plugin-react-remove-properties: 0.3.0
     blueimp-load-image: 5.16.0
-    chance: 1.1.8
+    chance: 1.1.13
     cypress: 10.3.1
     dayjs: 1.11.4
     deepmerge: 4.2.2
