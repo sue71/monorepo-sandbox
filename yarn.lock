@@ -5521,6 +5521,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lukeed/csprng@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "@lukeed/csprng@npm:1.1.0"
+  checksum: 926f5f7fc629470ca9a8af355bfcd0271d34535f7be3890f69902432bddc3262029bb5dbe9025542cf6c9883d878692eef2815fc2f3ba5b92e9da1f9eba2e51b
+  languageName: node
+  linkType: hard
+
 "@manypkg/find-root@npm:^1.1.0":
   version: 1.1.0
   resolution: "@manypkg/find-root@npm:1.1.0"
@@ -5579,27 +5586,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:9.0.0":
-  version: 9.0.0
-  resolution: "@nestjs/common@npm:9.0.0"
+"@nestjs/common@npm:10.4.16":
+  version: 10.4.16
+  resolution: "@nestjs/common@npm:10.4.16"
   dependencies:
     iterare: 1.2.1
-    tslib: 2.4.0
-    uuid: 8.3.2
+    tslib: 2.8.1
+    uid: 2.0.2
   peerDependencies:
-    cache-manager: "*"
     class-transformer: "*"
     class-validator: "*"
-    reflect-metadata: ^0.1.12
+    file-type: ^20.4.1
+    reflect-metadata: ^0.1.12 || ^0.2.0
     rxjs: ^7.1.0
   peerDependenciesMeta:
-    cache-manager:
-      optional: true
     class-transformer:
       optional: true
     class-validator:
       optional: true
-  checksum: b1c8042f525024f0c800a8caa0a7963ad8843743dd6759d7b0df467b75de9b683d60a0ae390bd37ff808cc8951f7cb156c53110b50b2ccf5bcbfe77331b7480e
+    file-type:
+      optional: true
+  checksum: 9031a98e08163fa7b7587edf84e2b1fe80715d3ad7f747a1e6e0eb14476b43d0c6f2185667d0de1d8332669dbdac8ac5fa75ea00fe6a5136b95605f7856e0ad9
   languageName: node
   linkType: hard
 
@@ -15917,7 +15924,7 @@ __metadata:
   resolution: "nest-app@workspace:typescript/apps/nest-app"
   dependencies:
     "@nestjs/cli": 9.0.0
-    "@nestjs/common": 9.0.0
+    "@nestjs/common": 10.4.16
     "@nestjs/core": 9.0.0
     "@nestjs/platform-express": 9.0.0
     "@nestjs/schematics": 9.0.0
@@ -19778,6 +19785,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.8.1":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
@@ -20119,6 +20133,15 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 7b3897df38b6fc7d7d9f4dcd658599d81aa2b1fb0d074829dd4e5290f7318dbca1f4af2f45acb833b95b1fe0ed4698662ab61b87e94328eb4c0a0d3435baf924
+  languageName: node
+  linkType: hard
+
+"uid@npm:2.0.2":
+  version: 2.0.2
+  resolution: "uid@npm:2.0.2"
+  dependencies:
+    "@lukeed/csprng": ^1.0.0
+  checksum: 98aabddcd6fe46f9b331b0378a93ee9cc51474348ada02006df9d10b4abc783ed596748ed9f20d7f6c5ff395dbcd1e764a65a68db6f39a31c95ae85ef13fe979
   languageName: node
   linkType: hard
 
