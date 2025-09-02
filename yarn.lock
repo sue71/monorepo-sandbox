@@ -16089,7 +16089,7 @@ __metadata:
     next-pwa: 5.6.0
     playwright-core: 1.24.1
     react: 18.2.0
-    react-avatar-editor: 11.1.0
+    react-avatar-editor: 13.0.2
     react-dom: 18.2.0
     react-dropzone: 14.2.2
     react-easy-crop: 4.4.0
@@ -17366,17 +17366,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-avatar-editor@npm:11.1.0":
-  version: 11.1.0
-  resolution: "react-avatar-editor@npm:11.1.0"
+"react-avatar-editor@npm:13.0.2":
+  version: 13.0.2
+  resolution: "react-avatar-editor@npm:13.0.2"
   dependencies:
     "@babel/plugin-transform-runtime": ^7.12.1
     "@babel/runtime": ^7.12.5
     prop-types: ^15.7.2
   peerDependencies:
-    react: ">=0.14.0"
-    react-dom: ">=0.14.0"
-  checksum: 9739fe76a4d48e8f5ed3ed87b1ea70adfb26987326f394501592160a7fe46a02b568b74940aa39c68710616d5092f21a59eef05c3adc847afa71883550a1dae3
+    react: ^0.14.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^0.14.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: f84295027f4f9f0b5b3aaab91d7288d7df5641851f5a2fdbf5df908d28ed9cabcc62d193b0e8c7a4d30dfa13acfe128cd7624b0360db660cdc54f8bb672c7b75
   languageName: node
   linkType: hard
 
