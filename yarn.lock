@@ -7583,12 +7583,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wry/equality@npm:0.5.2":
-  version: 0.5.2
-  resolution: "@wry/equality@npm:0.5.2"
+"@wry/equality@npm:0.5.7, @wry/equality@npm:^0.5.6":
+  version: 0.5.7
+  resolution: "@wry/equality@npm:0.5.7"
   dependencies:
     tslib: ^2.3.0
-  checksum: 19a01043a0583663924ed9f4ea109818b9b4cb540877ca75ea49545689f54c6bfc69e725a8b3b129a2ac15ea368fd40bbb94c22e7a5e4ec370f7c4697e64b8b1
+  checksum: 892f262fae362df80f199b12658ea6966949539d4a3a50c1acf00d94a367d673a38f8efa1abcb726ae9e5cc5e62fce50c540c70f797b7c8a2c4308b401dfd903
   languageName: node
   linkType: hard
 
@@ -7598,15 +7598,6 @@ __metadata:
   dependencies:
     tslib: ^2.3.0
   checksum: 9addf8891bdff5e23eecff03641846e7a56c1de3c9362c25e69c0b2ee3303e74b22e9a0376920283cd9d3bdd1bada12df54be5eaa29c2d801d33d94992672e14
-  languageName: node
-  linkType: hard
-
-"@wry/equality@npm:^0.5.6":
-  version: 0.5.7
-  resolution: "@wry/equality@npm:0.5.7"
-  dependencies:
-    tslib: ^2.3.0
-  checksum: 892f262fae362df80f199b12658ea6966949539d4a3a50c1acf00d94a367d673a38f8efa1abcb726ae9e5cc5e62fce50c540c70f797b7c8a2c4308b401dfd903
   languageName: node
   linkType: hard
 
@@ -16067,7 +16058,7 @@ __metadata:
     "@types/react-avatar-editor": 13.0.4
     "@types/react-dom": 19.1.9
     "@types/uuid": 11.0.0
-    "@wry/equality": 0.5.2
+    "@wry/equality": 0.5.7
     apollo-upload-client: 17.0.0
     array-move: 4.0.0
     babel-plugin-react-remove-properties: 0.3.0
