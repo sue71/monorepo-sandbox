@@ -4923,12 +4923,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:2.9.6":
-  version: 2.9.6
-  resolution: "@hookform/resolvers@npm:2.9.6"
+"@hookform/resolvers@npm:5.2.2":
+  version: 5.2.2
+  resolution: "@hookform/resolvers@npm:5.2.2"
+  dependencies:
+    "@standard-schema/utils": ^0.3.0
   peerDependencies:
-    react-hook-form: ^7.0.0
-  checksum: 23463eab50f4081b8ae0d9a7475b7cad7454c8b94a5685036455c0b6dfe7bc3e0c33cba2cb1956d2358eadcb12b3e3afebb4b16e3ca974ccfa91026a14e44455
+    react-hook-form: ^7.55.0
+  checksum: 131b1c4c763949164825634058fbe126041f1375622fddcb4f833af57e89665a2672474c778e604583d7447cff8252ab7df460240269e91eb5683646a3c9bebb
   languageName: node
   linkType: hard
 
@@ -6298,6 +6300,13 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^1.7.0
   checksum: 09b5a158ce013a6c37613258bad79ca4efeb99b1f59c41c73cca36cac00b258aefcf46eeea970fccf06b989414d86fe9f54c1102272c0c3bdd51a313cea80949
+  languageName: node
+  linkType: hard
+
+"@standard-schema/utils@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@standard-schema/utils@npm:0.3.0"
+  checksum: 7084f875d322792f2e0a5904009434c8374b9345b09ba89828b68fd56fa3c2b366d35bf340d9e8c72736ef01793c2f70d350c372ed79845dc3566c58d34b4b51
   languageName: node
   linkType: hard
 
@@ -16042,7 +16051,7 @@ __metadata:
     "@graphql-codegen/near-operation-file-preset": 2.4.0
     "@graphql-codegen/typescript-operations": 2.5.2
     "@graphql-codegen/typescript-react-apollo": 3.3.2
-    "@hookform/resolvers": 2.9.6
+    "@hookform/resolvers": 5.2.2
     "@next/bundle-analyzer": 13.1.1
     "@opentelemetry/api": 1.4.0
     "@sentry/nextjs": 7.28.1
