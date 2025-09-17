@@ -16092,7 +16092,7 @@ __metadata:
     react-avatar-editor: 11.1.0
     react-dom: 18.2.0
     react-dropzone: 14.2.2
-    react-easy-crop: 4.4.0
+    react-easy-crop: 5.5.1
     react-hook-form: 7.34.2
     react-i18next: 11.18.1
     react-sortable-hoc: 2.0.0
@@ -17416,16 +17416,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-easy-crop@npm:4.4.0":
-  version: 4.4.0
-  resolution: "react-easy-crop@npm:4.4.0"
+"react-easy-crop@npm:5.5.1":
+  version: 5.5.1
+  resolution: "react-easy-crop@npm:5.5.1"
   dependencies:
     normalize-wheel: ^1.0.1
-    tslib: 2.0.1
+    tslib: ^2.0.1
   peerDependencies:
     react: ">=16.4.0"
     react-dom: ">=16.4.0"
-  checksum: 63d3760e22196930060416864295d1abf8509e7847d26541b66a4aec5330a8ac6c4bb5d2db9f77ee8cb7d248612a8946a37f8893a1a0a068d577aa6c7c5bdc0d
+  checksum: 488722bc2c434ee131eac1a328cbee2cdb33d1fce937414b96cae139b96baa00fd221064463a45a399494353629e1f20ce58e811d8f93c651e65d1e773d6a78e
   languageName: node
   linkType: hard
 
@@ -19764,13 +19764,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.0.1":
-  version: 2.0.1
-  resolution: "tslib@npm:2.0.1"
-  checksum: 507f32fc24a614c5097d414b622373b6cbb99e305413517e7fd49bef1e63570c0dd15b417ae68152088c3496218e82a5d8c7cd6b48c7a32dcee1a3f7191fff74
-  languageName: node
-  linkType: hard
-
 "tslib@npm:2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
@@ -19789,6 +19782,13 @@ __metadata:
   version: 2.5.3
   resolution: "tslib@npm:2.5.3"
   checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.0.1":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
   languageName: node
   linkType: hard
 
