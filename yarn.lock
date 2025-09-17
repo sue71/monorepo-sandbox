@@ -11657,9 +11657,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:5.5.5":
-  version: 5.5.5
-  resolution: "framer-motion@npm:5.5.5"
+"framer-motion@npm:5.6.0":
+  version: 5.6.0
+  resolution: "framer-motion@npm:5.6.0"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 6.0.1
@@ -11682,7 +11682,7 @@ __metadata:
       optional: true
     three:
       optional: true
-  checksum: 95329fd69c721768bd6e5ecb72a7a822f389e73121981b1344b67af60c63cff29baca4235537ee558d54c415438702e40b153be4449d7fa970ddb118dddb783c
+  checksum: 384374bebda443ea2a149951337c4f82b9c3611e138e8dd8db6439bbccc4523968deb72dde83d5686223ec78be58f8ae1f51b9e34b585e4c50df15266e586a60
   languageName: node
   linkType: hard
 
@@ -16077,7 +16077,7 @@ __metadata:
     dependency-cruiser: 12.5.0
     encoding-japanese: 2.0.0
     firebase: 9.15.0
-    framer-motion: 5.5.5
+    framer-motion: 5.6.0
     globby: 11.0.4
     graphql: 16.5.0
     i18next: 21.8.14
