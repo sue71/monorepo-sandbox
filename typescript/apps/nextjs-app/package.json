@@ -22,7 +22,7 @@
     "@sentry/node": "7.28.1",
     "@sentry/react": "7.28.1",
     "@sentry/tracing": "7.28.1",
-    "@types/uuid": "10.0.0",
+    "@types/uuid": "11.0.0",
     "@wry/equality": "0.5.2",
     "apollo-upload-client": "17.0.0",
     "array-move": "4.0.0",
