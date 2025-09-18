@@ -106,35 +106,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.6.9":
-  version: 3.6.9
-  resolution: "@apollo/client@npm:3.6.9"
+"@apollo/client@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@apollo/client@npm:4.0.5"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
-    "@wry/context": ^0.6.0
-    "@wry/equality": ^0.5.0
-    "@wry/trie": ^0.3.0
+    "@wry/caches": ^1.0.0
+    "@wry/equality": ^0.5.6
+    "@wry/trie": ^0.5.0
     graphql-tag: ^2.12.6
-    hoist-non-react-statics: ^3.3.2
-    optimism: ^0.16.1
-    prop-types: ^15.7.2
-    symbol-observable: ^4.0.0
-    ts-invariant: ^0.10.3
+    optimism: ^0.18.0
     tslib: ^2.3.0
-    zen-observable-ts: ^1.2.5
   peerDependencies:
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    graphql-ws: ^5.5.5
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    graphql: ^16.0.0
+    graphql-ws: ^5.5.5 || ^6.0.3
+    react: ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    react-dom: ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    rxjs: ^7.3.0
     subscriptions-transport-ws: ^0.9.0 || ^0.11.0
   peerDependenciesMeta:
     graphql-ws:
       optional: true
     react:
       optional: true
+    react-dom:
+      optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: a3c037ef3465cb5d736d8495c9c2dcb9741e39d9c102f147b479af1923c5913f710981a311d1098b9969ebe87769b749c22274decb5977ad0619032e7ac2cf26
+  checksum: 2194662e6b4b51adb7a4d5a4baf9a81344f44dd5fb5a60a47f841340537a2a092246a68f2685bd7d05d9c3c71c89f294733079d31d00f81b90ec3994552febfa
   languageName: node
   linkType: hard
 
@@ -7565,15 +7564,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wry/context@npm:^0.6.0":
-  version: 0.6.1
-  resolution: "@wry/context@npm:0.6.1"
-  dependencies:
-    tslib: ^2.3.0
-  checksum: 4187863175061a8f54659f124e3e5c202e010b2b65bf886b4de9777ce8a45cf183b6f6d88f1f537002cbcbea52103a2eadc337d494106490def10acaf9522c5d
-  languageName: node
-  linkType: hard
-
 "@wry/context@npm:^0.7.0":
   version: 0.7.3
   resolution: "@wry/context@npm:0.7.3"
@@ -7592,30 +7582,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wry/equality@npm:^0.5.0":
-  version: 0.5.6
-  resolution: "@wry/equality@npm:0.5.6"
-  dependencies:
-    tslib: ^2.3.0
-  checksum: 9addf8891bdff5e23eecff03641846e7a56c1de3c9362c25e69c0b2ee3303e74b22e9a0376920283cd9d3bdd1bada12df54be5eaa29c2d801d33d94992672e14
-  languageName: node
-  linkType: hard
-
 "@wry/equality@npm:^0.5.6":
   version: 0.5.7
   resolution: "@wry/equality@npm:0.5.7"
   dependencies:
     tslib: ^2.3.0
   checksum: 892f262fae362df80f199b12658ea6966949539d4a3a50c1acf00d94a367d673a38f8efa1abcb726ae9e5cc5e62fce50c540c70f797b7c8a2c4308b401dfd903
-  languageName: node
-  linkType: hard
-
-"@wry/trie@npm:^0.3.0":
-  version: 0.3.2
-  resolution: "@wry/trie@npm:0.3.2"
-  dependencies:
-    tslib: ^2.3.0
-  checksum: 151d06b519e1ff1c3acf6ee6846161b1d7d50bbecd4c48e5cd1b05f9e37c30602aff02e88f20105f6e6c54ae4123f9c4eb7715044d7fd927d4ba4ec3e755cd36
   languageName: node
   linkType: hard
 
@@ -16029,7 +16001,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-app@workspace:typescript/apps/nextjs-app"
   dependencies:
-    "@apollo/client": 3.6.9
+    "@apollo/client": 4.0.5
     "@braze/web-sdk": 4.3.0
     "@chakra-ui/cli": 2.2.0
     "@chakra-ui/react": 2.4.4
@@ -16456,16 +16428,6 @@ __metadata:
   bin:
     opener: bin/opener-bin.js
   checksum: 33b620c0d53d5b883f2abc6687dd1c5fd394d270dbe33a6356f2d71e0a2ec85b100d5bac94694198ccf5c30d592da863b2292c5539009c715a9c80c697b4f6cc
-  languageName: node
-  linkType: hard
-
-"optimism@npm:^0.16.1":
-  version: 0.16.2
-  resolution: "optimism@npm:0.16.2"
-  dependencies:
-    "@wry/context": ^0.7.0
-    "@wry/trie": ^0.3.0
-  checksum: a98ed9a0b8ee2b031010222099b60860d52860bf8182889f2695a7cf2185f21aca59020f78e2b47c0ae7697843caa576798d792967314ff59f6aa7c5d9de7f3a
   languageName: node
   linkType: hard
 
