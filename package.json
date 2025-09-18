@@ -2,7 +2,7 @@
   "name": "monorepo-sandbox",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@4.10.0",
   "repository": "ssh://git@github.com/sue71/monorepo-sandbox",
   "author": "sue71 <s.masaki07@gmail.com>",
   "workspaces": {
