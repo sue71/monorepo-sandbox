@@ -8412,10 +8412,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-react-remove-properties@npm:0.3.0":
-  version: 0.3.0
-  resolution: "babel-plugin-react-remove-properties@npm:0.3.0"
-  checksum: dc7165301fb8667ebdac7808e7210cd25157e0988288124f4425df99b63169f271cd87f0c12b988c5f2c5294e61dc409e06413fa7067c2f205a77b5c59a45d6e
+"babel-plugin-react-remove-properties@npm:0.3.1":
+  version: 0.3.1
+  resolution: "babel-plugin-react-remove-properties@npm:0.3.1"
+  checksum: 9d7e28e45548266effd2ff51ab86989407e5415c3e9e3ddcc5462956e813a848dfaca36e8bea92658d54ab9ed9e7101525426ace2355c759c4d41a4b70e342d4
   languageName: node
   linkType: hard
 
@@ -16070,7 +16070,7 @@ __metadata:
     "@wry/equality": 0.5.2
     apollo-upload-client: 17.0.0
     array-move: 4.0.0
-    babel-plugin-react-remove-properties: 0.3.0
+    babel-plugin-react-remove-properties: 0.3.1
     blueimp-load-image: 5.16.0
     chance: 1.1.8
     cypress: 10.3.1
