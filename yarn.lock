@@ -138,29 +138,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:^3.8.0":
-  version: 3.12.7
-  resolution: "@apollo/client@npm:3.12.7"
+"@apollo/client@npm:^4.0.0":
+  version: 4.0.7
+  resolution: "@apollo/client@npm:4.0.7"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/caches": ^1.0.0
     "@wry/equality": ^0.5.6
     "@wry/trie": ^0.5.0
     graphql-tag: ^2.12.6
-    hoist-non-react-statics: ^3.3.2
     optimism: ^0.18.0
-    prop-types: ^15.7.2
-    rehackt: ^0.1.0
-    response-iterator: ^0.2.6
-    symbol-observable: ^4.0.0
-    ts-invariant: ^0.10.3
     tslib: ^2.3.0
-    zen-observable-ts: ^1.2.5
   peerDependencies:
-    graphql: ^15.0.0 || ^16.0.0
-    graphql-ws: ^5.5.5
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    graphql: ^16.0.0
+    graphql-ws: ^5.5.5 || ^6.0.3
+    react: ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    react-dom: ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    rxjs: ^7.3.0
     subscriptions-transport-ws: ^0.9.0 || ^0.11.0
   peerDependenciesMeta:
     graphql-ws:
@@ -171,7 +165,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: bd8c3175e2d5937c8561ff61b2b0eb7a8c2aca9be6c575e47055d663f947ebc4be44cdab59bef7beb191674db6ab19cfe0a19e9dfa518d5266c252e304161e53
+  checksum: 7c5b1aeed2a263e95ab6f0ba52496440f0c73b8557e9df6bd60b6444363535a9c41697c01744961d090dbf826ff932506a3a4d950b57a6f48d2f6bba0e73585f
   languageName: node
   linkType: hard
 
@@ -6565,14 +6559,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/apollo-upload-client@npm:18.0.0":
-  version: 18.0.0
-  resolution: "@types/apollo-upload-client@npm:18.0.0"
+"@types/apollo-upload-client@npm:19.0.0":
+  version: 19.0.0
+  resolution: "@types/apollo-upload-client@npm:19.0.0"
   dependencies:
-    "@apollo/client": ^3.8.0
+    "@apollo/client": ^4.0.0
     "@types/extract-files": "*"
     graphql: 14 - 16
-  checksum: b26ba3ce2a391550fe4b6789647dcd6ed3ea4d3fb91313eb248e59dad549594b832fe963c6bdc7ad934a00778d145a63bdcea08cba746a38206503dbd6a8cc3f
+  checksum: ff3be0c31bb48aa51bcd74b2c340fb333c6fccfe9f5215d0c5e665b2745992c8b642a4cabcf1dec3f77ab2cc1feeedd0e41ce8c4b6feef2f4e1e925ff73eac55
   languageName: node
   linkType: hard
 
@@ -16055,7 +16049,7 @@ __metadata:
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@testing-library/user-event": 13.5.0
-    "@types/apollo-upload-client": 18.0.0
+    "@types/apollo-upload-client": 19.0.0
     "@types/blueimp-load-image": 5.16.6
     "@types/chance": 1.1.7
     "@types/encoding-japanese": 2.2.1
@@ -17839,21 +17833,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rehackt@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "rehackt@npm:0.1.0"
-  peerDependencies:
-    "@types/react": "*"
-    react: "*"
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-  checksum: 2c3bcd72524bf47672640265e79cba785e0e6837b9b385ccb0a3ea7d00f55a439d9aed3e0ae71e991d88e0d4b2b3158457c92e75fff5ebf99cd46e280068ddeb
-  languageName: node
-  linkType: hard
-
 "relay-runtime@npm:12.0.0":
   version: 12.0.0
   resolution: "relay-runtime@npm:12.0.0"
@@ -18053,13 +18032,6 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
-  languageName: node
-  linkType: hard
-
-"response-iterator@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "response-iterator@npm:0.2.6"
-  checksum: b0db3c0665a0d698d65512951de9623c086b9c84ce015a76076d4bd0bf733779601d0b41f0931d16ae38132fba29e1ce291c1f8e6550fc32daaa2dc3ab4f338d
   languageName: node
   linkType: hard
 
