@@ -1846,10 +1846,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@braze/web-sdk@npm:4.3.0":
-  version: 4.3.0
-  resolution: "@braze/web-sdk@npm:4.3.0"
-  checksum: 530ebabfb4a7e8fd8a01ba87b5636d40867d98293ba09b3e2f49da88b7dfc97fa742bc59f2b2729489ac15e1f7d95a9e431720f5509dd43df96d6b1674dac96b
+"@braze/web-sdk@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@braze/web-sdk@npm:6.7.1"
+  checksum: e01db39bbe4386285bdb73eae471568ae4c0c38b85d791017cdcd9206c2a8d88bc0bc98e4fc56dc703ad667c94004e83bc6b1907238072f720ee14e0d49d6be7
   languageName: node
   linkType: hard
 
@@ -16024,7 +16024,7 @@ __metadata:
   resolution: "nextjs-app@workspace:typescript/apps/nextjs-app"
   dependencies:
     "@apollo/client": 3.6.9
-    "@braze/web-sdk": 4.3.0
+    "@braze/web-sdk": 6.7.1
     "@chakra-ui/cli": 2.2.0
     "@chakra-ui/react": 2.4.4
     "@chakra-ui/theme": 2.2.2
