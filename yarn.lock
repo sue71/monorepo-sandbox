@@ -1741,7 +1741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.8.4":
   version: 7.22.3
   resolution: "@babel/runtime@npm:7.22.3"
   dependencies:
@@ -12636,12 +12636,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:21.8.14":
-  version: 21.8.14
-  resolution: "i18next@npm:21.8.14"
-  dependencies:
-    "@babel/runtime": ^7.17.2
-  checksum: 83b1a57d761c3d29b90f4e87eb9945902fa13d7750f11bc7f22e8c9999f7e5bf9b2a30c44a9b47569c8ea704573b02a562c2678cf2281073197ace07657d21be
+"i18next@npm:26.1.0":
+  version: 26.1.0
+  resolution: "i18next@npm:26.1.0"
+  peerDependencies:
+    typescript: ^5 || ^6
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 0ff371f573e2de4749d8b63abb08845583584562039ff53a99a3f3ea2a2e2dea3697508d475056763a27dee190bf5234e53d4212003f18ecbe1c1d7ea91a79fb
   languageName: node
   linkType: hard
 
@@ -16076,7 +16079,7 @@ __metadata:
     framer-motion: 5.5.5
     globby: 11.0.4
     graphql: 16.5.0
-    i18next: 21.8.14
+    i18next: 26.1.0
     jest-fetch-mock: 3.0.3
     js-cookie: 3.0.1
     jszip: 3.10.1
