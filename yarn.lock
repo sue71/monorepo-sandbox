@@ -16083,7 +16083,7 @@ __metadata:
     lodash.snakecase: 4.1.1
     next: 13.1.1
     next-pwa: 5.6.0
-    playwright-core: 1.24.1
+    playwright-core: 1.63.0
     react: 18.2.0
     react-avatar-editor: 11.1.0
     react-dom: 18.2.0
@@ -16883,12 +16883,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.24.1":
-  version: 1.24.1
-  resolution: "playwright-core@npm:1.24.1"
+"playwright-core@npm:1.63.0":
+  version: 1.63.0
+  resolution: "playwright-core@npm:1.63.0"
   bin:
-    playwright: cli.js
-  checksum: cad6a43ebb12c99e13c8f5a105ba558cfdd8e5e72e36e2afe47e9f834abd42eab04beb0a73ffcbff28bf0d0ae95e59dc005bc123f6eb562c6f1866cc90f3ed76
+    playwright-core: cli.js
+  checksum: b4c190c4099d0620a9ba22a0e826194ad511c3149153a79c44dc632ac2058da7da01cf66f011ee3ee0f360bbd83aa2f67f04519eb3c7c2bea257c4f598537937
   languageName: node
   linkType: hard
 
