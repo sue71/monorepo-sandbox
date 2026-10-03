@@ -9902,10 +9902,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.11.4":
-  version: 1.11.4
-  resolution: "dayjs@npm:1.11.4"
-  checksum: 478c8a2db9e3fc752db9f02ef23f00e12308eebbeb85569913731ea78e8d5616f2335e14f25af48e9f16bbcbd796653092eca4d2f42c0218a948402c31735f59
+"dayjs@npm:1.11.23":
+  version: 1.11.23
+  resolution: "dayjs@npm:1.11.23"
+  checksum: 2149ddb54548066e892a35099c7d90cba3eb467fe717b5df16f04ff4225e64bd653e14e7b420dd02bcf10566c1879508705798ca604f91c2424cc10de9135e84
   languageName: node
   linkType: hard
 
@@ -16068,7 +16068,7 @@ __metadata:
     blueimp-load-image: 5.16.0
     chance: 1.1.8
     cypress: 10.3.1
-    dayjs: 1.11.4
+    dayjs: 1.11.23
     deepmerge: 4.2.2
     dependency-cruiser: 12.5.0
     encoding-japanese: 2.0.0
