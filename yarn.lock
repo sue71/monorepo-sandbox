@@ -6632,17 +6632,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chance@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@types/chance@npm:1.1.7"
-  checksum: 2c5390c6f412911bc8008c4e9ce5786e060782011e13a93fa0129e339b2c8734a39c5dd046e3309407e760baa00cec337aa5d4c73e1a001ba52abdedbbe27c23
+"@types/chance@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@types/chance@npm:1.1.8"
+  checksum: ea761f3fec731c775dea092bc921ee0317ea0e19b23a4d7e9dd9b24da9481ca1f5859e98b39032f67db98c19075a71e762e1f942e054c6727a6226997ce8f5eb
   languageName: node
   linkType: hard
 
-"@types/encoding-japanese@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@types/encoding-japanese@npm:2.2.1"
-  checksum: c12fbf5f50def99ed561bc7eb248ee44db0858e47d00db6deb4bf7bae0cf311a1079620c760c8c842964d1ebfebd730c0b53abaca7257f8ac7ae8cea4f4f2ca3
+"@types/encoding-japanese@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@types/encoding-japanese@npm:2.4.0"
+  dependencies:
+    encoding-japanese: "*"
+  checksum: 5e57742fae38b2fa64a5ea67de7fab24d7b48199204d576cf768cb7e99e2b0f815f9344461ce966631d3f7ae04349b61f666805ee1c4b85a49b209fb12941bc9
   languageName: node
   linkType: hard
 
@@ -6912,12 +6914,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.18.5":
-  version: 22.18.5
-  resolution: "@types/node@npm:22.18.5"
+"@types/node@npm:22.20.5":
+  version: 22.20.5
+  resolution: "@types/node@npm:22.20.5"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 1b6168f13ac7753eb4e1881858172a24e98d630e2ad0be520bf7a73e50bec41277ae7caf168a62432825f94e4548c5700a218e0b566ca1138431005f2359ac38
+  checksum: c9258c97d580c980fe229b8a3598f68c896dd71a9b7cbabe55027842de06a7ecc16101f3f1c22ac35cc01c7636db0c05532e8c1299968ab0d2d2648dab5849e1
   languageName: node
   linkType: hard
 
@@ -6979,12 +6981,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:19.1.9":
-  version: 19.1.9
-  resolution: "@types/react-dom@npm:19.1.9"
+"@types/react-dom@npm:19.3.0":
+  version: 19.3.0
+  resolution: "@types/react-dom@npm:19.3.0"
   peerDependencies:
-    "@types/react": ^19.0.0
-  checksum: 207acb79f6c3c9704938138960e21429efdf2db2184f17c166e8ec3f3180dfe6445b282c5302f559a71b2d09ab2fafef7735f3d24fd01cda4e5c7bf0cea1d5b9
+    "@types/react": ^19.3.0
+  checksum: 9e043873433f897f3287582e43c424c93c3ac44d975007b2d2d4ef9985b4d269461abfb1502646882e724fc0725635741e1097888ceccff571bf6815841763fc
   languageName: node
   linkType: hard
 
@@ -10416,6 +10418,13 @@ __metadata:
   version: 1.0.2
   resolution: "encodeurl@npm:1.0.2"
   checksum: e50e3d508cdd9c4565ba72d2012e65038e5d71bdc9198cb125beb6237b5b1ade6c0d343998da9e170fb2eae52c1bed37d4d6d98a46ea423a0cddbed5ac3f780c
+  languageName: node
+  linkType: hard
+
+"encoding-japanese@npm:*":
+  version: 2.4.0
+  resolution: "encoding-japanese@npm:2.4.0"
+  checksum: 2beb3363cde30b1892f988604b45d701b9e147a00cbcaad6fc21af9ceeba2280bf6d93ece7fa6ac31e6a7ffdc1a11b36328560f4f6ba7912afdb2775b6a13adf
   languageName: node
   linkType: hard
 
@@ -15778,7 +15787,7 @@ __metadata:
     "@commitlint/cli": 17.0.3
     "@commitlint/config-conventional": 17.0.3
     "@types/jest": 29.2.4
-    "@types/node": 22.18.5
+    "@types/node": 22.20.5
     "@types/react": 18.2.9
     "@typescript-eslint/eslint-plugin": 5.46.1
     "@typescript-eslint/parser": 5.46.1
@@ -15919,7 +15928,7 @@ __metadata:
     "@nestjs/schematics": 9.0.0
     "@nestjs/testing": 9.0.0
     "@types/jest": 29.0.0
-    "@types/node": 22.18.5
+    "@types/node": 22.20.5
     "@typescript-eslint/eslint-plugin": 5.0.0
     "@typescript-eslint/parser": 5.0.0
     eslint: 8.0.1
@@ -16051,15 +16060,15 @@ __metadata:
     "@testing-library/user-event": 13.5.0
     "@types/apollo-upload-client": 19.0.0
     "@types/blueimp-load-image": 5.16.6
-    "@types/chance": 1.1.7
-    "@types/encoding-japanese": 2.2.1
+    "@types/chance": 1.1.8
+    "@types/encoding-japanese": 2.4.0
     "@types/grecaptcha": 3.0.9
     "@types/js-cookie": 3.0.6
     "@types/lodash.snakecase": 4.1.9
-    "@types/node": 22.18.5
+    "@types/node": 22.20.5
     "@types/react": 18.2.9
     "@types/react-avatar-editor": 13.0.4
-    "@types/react-dom": 19.1.9
+    "@types/react-dom": 19.3.0
     "@types/uuid": 11.0.0
     "@wry/equality": 0.5.2
     apollo-upload-client: 17.0.0
